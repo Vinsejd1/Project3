@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+p{
+    font-weight: 500;
+}
+
+body{
+    background-image:url(./assets/Background.jpeg);
+    background-size:contain;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    transition: background-image,0.5s ease;
+}
+
+.white-mode{
+    background-image:url(./assets/background\ reverse.jpeg);
+   
+    color: black;
+}
+
+header{
+    background-color: #700909;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 1000;
+}
+
+.navmenu{
+    display: none;
+}
+.navmenu button{
+    background-color: #700909;
+    color: white;
+    border-color: grey;
+    border-radius: 10px;
+    height: 24px;
+}
+
+
+
+.menu-icon{
+    margin-right: 30px;
+    font-size: 25px;
+}
+
+.logo{
+    flex-grow:1;
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 60px;
+    margin-left: 30px;
+}
+
+header nav{
+    margin-right: 30px;
+}
+
+header li{
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.text-main{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    text-align: center;
+    /* background-color:rgba(0,0,0,0.7); */
+    margin-bottom: 15px;
+}
+
+.text-main h1{
+    margin-top: 15px;
+}
+
+.text-main h2{
+    margin-top: 15px;
+}
+
+.text-main h3{
+    margin-top: 15px;
+}
+
+.return-top{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background-color: white;
+}
+
+.return-top i{
+    color:black;
+}
+
+.three-pictures-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 15px;
+}
+
+.three-pictures{
+    display: flex;
+    margin-bottom: 3px;
+    width: 25vw;
+    height: 25vw;
+}
+
+.img{
+    width:100%;
+    object-fit: fill;
+}
+
+.registration-here{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px; 
+}
+
+
+
+.notificationName,
+.notificationEmail,
+.notificationHeslo,
+.notificationWrongHeslo{
+  
+    display: none;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer{
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    
+}

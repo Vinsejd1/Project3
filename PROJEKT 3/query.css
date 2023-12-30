@@ -1,0 +1,26 @@
+
+@media (min-width:768px){
+    .menu-icon{
+        display: none;
+    }
+
+    .navmenu{
+        display: block !important;
+    }
+
+    .three-pictures-main{
+        flex-direction: row;
+    }
+    
+    .three-pictures{
+        width: 26vw;
+        margin-right: 10px;
+        transition:height 0.5s ease,
+        width 0.5s ease;
+    }
+
+    .three-pictures:hover{
+        width: 32vw;
+        height: 32vw;
+    }
+}
